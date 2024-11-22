@@ -1,9 +1,10 @@
 import { SignedIn, SignedOut, UserButton } from "@clerk/nextjs"
 import Image from "next/image"
 import Link from "next/link"
-import { Button } from "../button"
+
 import NavItems from "./NavItems"
 import MobileNav from "./MobileNav"
+import { Button } from "../ui/button"
 
 const Header = () => {
   return (
